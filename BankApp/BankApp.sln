@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bank-app-backend", "bank-ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bank-app-frontend", "bank-app-frontend\bank-app-frontend.csproj", "{A215B194-0385-49D3-AEE8-9C18D0D2CD63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankTrackingSystem", "BankTrackingSystem\BankTrackingSystem.csproj", "{FC4C0BD3-06F0-431F-AE16-90E1B743AB10}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{96DEE320-03A1-4734-A1A9-5E02DAC5FC7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{A215B194-0385-49D3-AEE8-9C18D0D2CD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A215B194-0385-49D3-AEE8-9C18D0D2CD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A215B194-0385-49D3-AEE8-9C18D0D2CD63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC4C0BD3-06F0-431F-AE16-90E1B743AB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4C0BD3-06F0-431F-AE16-90E1B743AB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4C0BD3-06F0-431F-AE16-90E1B743AB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4C0BD3-06F0-431F-AE16-90E1B743AB10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DEE320-03A1-4734-A1A9-5E02DAC5FC7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DEE320-03A1-4734-A1A9-5E02DAC5FC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DEE320-03A1-4734-A1A9-5E02DAC5FC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DEE320-03A1-4734-A1A9-5E02DAC5FC7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

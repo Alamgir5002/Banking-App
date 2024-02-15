@@ -36,8 +36,8 @@ builder.Services.Configure<ConnectionStringsOptions>(builder.Configuration.GetSe
 
 var app = builder.Build();
 
-/*// Apply migrations
-using var scope = app.Services.CreateScope();
+// Apply migrations
+/*using var scope = app.Services.CreateScope();
 var context = scope.ServiceProvider.GetRequiredService<DatabaseContext>();
 if (context.Database.GetPendingMigrations().Any())
 {
